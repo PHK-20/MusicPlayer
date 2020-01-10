@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="firstpage.css" type="text/css">
+    <link type="text/css" href="player.css" rel="stylesheet">
+    <script src="js.js"></script>
+    <link href="settings.css" type="text/css" rel="stylesheet">
+    <script  src="settings.js" type="text/javascript"></script>
+
+    <title>Title</title>
+
+</head>
+<body>
+<div class="mostout" >
+
+<div class="back123" id="back">
+    <div id="top" style="position: relative">
+                <div id="search" class="nav1" >搜索</div>
+                <div id="hotpoint" class="nav1">热点</div>
+                <div id="rank" class="nav1">排行榜</div>
+                <div id="singer" class="nav1">歌手</div>
+                <div id="player" onclick="moveright('back1')">
+                    <div id="player_in"></div>
+                </div>
+    </div>
+
+    <div style="float: left" class="left">
+
+        <div class="nav2">
+            <div id="nav2-photo-music" class="nav2-photo"></div>
+            <div class="nav2-text">我的音乐</div>
+        </div>
+
+        <div  class="nav2">
+            <div class="nav2-photo" id="nav2-photo-musicku"></div>
+            <div class="nav2-text">音乐馆</div>
+        </div>
+
+        <div class="nav2" id="nav2-photo-id" >
+            <div class="nav2-photo" ></div>
+            <div class="nav2-text">账号</div>
+        </div>
+
+        <div  class="nav2"  id="nav2-photo-setting" onclick="moveright('broad')">
+            <div class="nav2-photo"></div>
+            <div class="nav2-text" >设置</div>
+        </div>
+    </div>
+
+    <div class="right" >
+        <div class="right-type1" id="right-1" style="background-color: white"><div>你总说毕业遥遥无期<br />转眼间各奔东西</div></div>
+        <div class="right-type2" id="right-2" style="background-color: white"><span>让我为你唱情歌</span></div>
+        <div class="right-type1" id="right-3" style="background-color: white"><div>慢慢喜欢你<br />就想和你在一起</div></div>
+        <div class="right-type1" id="right-4" style="background-color: white"><div>等你等到我等不了<br />望你望到我忘不了</div></div>
+        <div class="right-type2" id="right-5" style="background-color: white"><span>《Keep Online》 NO版</span></div>
+        <div class="right-type1" id="right-6" style="background-color: white"><div>爱不得不想成全<br />恨不得一刀两断</div></div>
+        <div class="right-type2" id="right-7" style="background-color: white"><span>不若放马归山 从此风轻云淡</span></div>
+    </div>
+    <div id="sy-bottom">
+
+        <div class="control" id="control-1" onclick="last('bgmusic')"></div>
+        <div class="control" id="control-2" onclick="mplay('bgmusic')"></div>
+        <div class="control" id="control-3" onclick="next('bgmusic')"></div>
+        <div class="control" id="control-4" onclick="stop('bgmusic')"></div>
+
+    </div>
+</div>
+<!---播放页面-->
+
+    <div class="back1" id="back1">
+        <div class="bg" id="bg"></div>
+        <div class="left1" style="float: left">
+
+            <div id="go-back" onclick="goback('back1')"></div>
+            <div class="word-top">歌词</div>
+
+            <ul class="word1" id="word0">
+                <li >对焦她的爱</li>
+                <li>对慢了爱人会失去可爱</li>
+                <li>世事变有没有将你淹盖</li>
+                <li>只一格经典的偶遇已不再</li>
+                <li>尽量框住目前大概</li>
+                <li>留住温度速度温柔和愤怒</li>
+                <li>捉紧生命浓度</li>
+                <li>坦白流露感情和态度</li>
+                <li>留下浮光掠影飞舞</li>
+                <li>每张都罕有</li>
+                <li>拍下过记住过好过</li>
+                <li>拥有光圈爱漫游</li>
+            </ul>
+
+            <ul class="word-else" id="word1">
+                <li >突然好想你</li>
+                <li>突然好想你</li>
+                <li>最怕空气突然安静</li>
+                <li>最怕朋友突然的关心</li>
+                <li>最怕回忆突然翻滚绞痛着不平息</li>
+                <li>最怕突然听到你的消息</li>
+                <li>想念如果会有声音</li>
+                <li>不愿那是悲伤的哭泣</li>
+                <li>事到如今终于让自己属于我自己</li>
+                <li>只剩眼泪还骗不过自己</li>
+                <li>突然好想你</li>
+                <li>你会在哪里</li>
+            </ul>
+
+            <ul class="word-else" id="word2">
+                <li >你陪我步入蝉夏</li>
+                <li>越过城市喧嚣</li>
+                <li>歌声还在游走</li>
+                <li>你榴花般的双眸</li>
+                <li>不见你的温柔</li>
+                <li>丢失花间欢笑</li>
+                <li>岁月无法停留</li>
+                <li>流云的等候</li>
+                <li>我真的好想你</li>
+                <li>只剩眼泪还骗不过自己</li>
+                <li>在每一个雨季</li>
+                <li>你选择遗忘的</li>
+            </ul>
+
+            <ul class="word-else"  id="word3">
+                <li >爱上了 看见你</li>
+                <li>如何不懂谦卑</li>
+                <li>去讲心中理想　不会俗气</li>
+                <li>犹如看得见晨曦　才能欢天喜地</li>
+                <li>抱着你　我每次　</li>
+                <li>回来多少惊喜</li>
+                <li>也许一生太短　陪着你</li>
+                <li>情感有若行李</li>
+                <li>仍然沉重待我整理</li>
+                <li>天气不似如期　但要走　总要飞</li>
+                <li>道别不可再等你 不管有没有机</li>
+                <li>给我体贴入微　但你手</li>
+                <li>如明日便要远离</li>
+                <li>愿你可以留下共我曾愉快的忆记</li>
+            </ul>
+            <ul class="word-else"  id="word4">
+                <li >Into the night</li>
+                <li>The city lights are dancing</li>
+                <li>Slowly falling apart</li>
+                <li>Shadows causing an outbreak</li>
+                <li>I'm wishing upon a star</li>
+                <li>This time I’m feeling stronger</li>
+                <li>And I know I can do better</li>
+                <li>Shadows causing an outbreak</li>
+                <li>I'm turning the lights on</li>
+                <li>We're gonna light it up</li>
+                <li>Light it up, oh</li>
+                <li>Light it up, light it up, oohhh</li>
+                <li>Light it up, light it up</li>
+                <li>Causing an outbreak</li>
+            </ul>
+            <ul class="word-else"  id="word5">
+                <li >没有歌词！</li>
+            </ul>
+
+
+        </div>
+
+        <div class="right1">
+
+            <div class="top">
+                <div class="top-top">
+                    <div style="font-size: 130%;    line-height: 60px;" id="name">沙龙</div>
+                    <div style="line-height: 40px" id="psinger">——陈奕迅——</div>
+                </div>
+                <div id="pic"><div class="CD" id="CD"></div></div>
+            </div>
+
+            <div class="bottom">
+                <audio id="bgmusic">
+                    <source src="music/沙龙.mp3" type="audio/ogg" >
+                </audio>
+                <div id="bottom-last" onclick="last('bgmusic')"   class="bottom-control"></div>
+                <div onclick="mplay('bgmusic')" id="bottom-play" class="bottom-control"></div>
+                <div id="bottom-next" onclick="next('bgmusic')" class="bottom-control"></div>
+                <div id="bottom-stop" onclick="stop('bgmusic')"  class="bottom-control"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--setting-->
+
+    <div id="broad" align="center">
+        <div id="buttons">
+            <div id="back2" onclick="goback('broad');returned()">
+                <div id="back_icon"></div>
+            </div>
+            <div id="music_play" onclick="music()">
+                <div id="music_play_icon"></div>
+            </div>
+            <div id="download" onclick="download()">
+                <div id="download_icon"></div>
+            </div>
+            <div id="account" onclick="account()">
+                <div id="account_icon"></div>
+            </div>
+            <div id="about" onclick="info()">
+                <div id="about_icon"></div>
+            </div>
+            <div id="text">•设置•</div>
+        </div>
+        <div id="list">
+            <div id="s_music" align="left">
+                <div id="m_text">
+                    <h2>-播放音质-</h2>
+                    <input type="radio" name="quality"> 标准（128kbit/s)<br>
+                    <input type="radio" name="quality"> 中等（192kbit/s)<br>
+                    <input type="radio" name="quality"> 高清（320kbit/s)<br>
+                </div>
+            </div>
+            <div id="s_account">
+                <div id="a_text">
+                    <div id="a_icon">
+                        <div id="a_icon_head"></div>
+                    </div>
+                    <br><br>
+                    您还没有登录
+                </div>
+            </div>
+            <div id="s_info">
+                <div id="i_text">
+                    <br>-Lzqcl Music Player-<br><br>
+                    制作者:<br>
+                    李政恒<br>
+                    覃瀚钰<br>
+                    曹文玥<br>
+                    刘玉婷<br>
+                    卓杨雪子<br><br>
+                    使用工具:Webstorm<br><br>
+                    感谢您的使用！
+                </div>
+            </div>
+            <div id="s_download" align="left">
+                <div id="d_text">
+                    <div id="d_1">
+                        <div id="d_1_text">
+                            <h2>-缓存设置-</h2>
+                            限制缓存大小最大为：<input style="height: 5%;width: 10%" type="number" min="1" max="90000">MB<br>
+                            缓存路径：<input style="height: 5%;width: 50%" type="text"><br>
+                            缓存项目：<input type="checkbox">封面&nbsp;<input type="checkbox">音乐&nbsp;<input type="checkbox">歌词
+                        </div>
+                    </div>
+                    <div id="d_2">
+                        <div id="d_2_text">
+                            <h2>-下载设置-</h2>
+                            下载路径：<input style="height: 5%;width: 50%" type="text"><br>
+                            下载音质：<br>
+                            <input type="radio" name="quality"> 标准（128kbit/s)<br>
+                            <input type="radio" name="quality"> 中等（192kbit/s)<br>
+                            <input type="radio" name="quality"> 高清（320kbit/s)<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="play">
+            <div id="p_buttons">
+                <div id="p_b_last" onclick="last('bgmusic')"></div>
+                <div id="p_b_play" id="p_b_play" onclick="mplay('bgmusic')"></div>
+                <div id="p_b_next" onclick="next('bgmusic')"></div>
+                <div id="p_b_stop" onclick="stop('bgmusic')"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

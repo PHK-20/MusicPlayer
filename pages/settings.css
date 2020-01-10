@@ -1,0 +1,300 @@
+#broad{
+    background-color: beige;
+    height: 630px;
+    width: 1120px;
+    font-size: large;
+    overflow: hidden;
+    position: absolute;left: 1120px;
+    transition: 0.5s;
+}
+#buttons{
+    background-color: rgba(26,65,236,0.72);
+    width: 10%;
+    height: 100%;
+    position: relative;right:45%;
+}
+#back2{
+    width: 100%;
+    height: 18%;
+    transition: all 0.2s;
+}
+
+#back_icon{
+    background: url("items/back.svg")no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+#back2:hover{
+    background-color: #1fb0ff;
+}
+#music_play{
+    width: 100%;
+    height: 18%;
+    transition: all 0.2s;
+}
+#music_play_icon{
+    background: url("items/music.svg")no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+#music_play:hover{
+    background-color: #1fb0ff;
+}
+#account{
+    width: 100%;
+    height: 18%;
+    transition: all 0.2s;
+}
+#account_icon{
+    background: url("items/account.svg")no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+#account:hover{
+    background-color: #1fb0ff;
+}
+#download{
+     width: 100%;
+     height: 18%;
+     transition: all 0.2s;
+ }
+#download_icon{
+    background: url("items/download.svg")no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+#download:hover{
+    background-color: #1fb0ff;
+}
+#about{
+    width: 100%;
+    height: 18%;
+    transition: all 0.2s;
+}
+#about_icon{
+    background: url("items/about.svg")no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+#about:hover{
+    background-color: #1fb0ff;
+}
+#text{
+    width: 100%;
+    height: 10%;
+    line-height: 240%;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+#list{
+    position: relative;top: -100%;left:5%;
+    width: 90%;
+    height: 90%;
+    font-size: medium;
+    color:ghostwhite;
+}
+#m_big{
+    background-color: #1fb0ff;
+    position: absolute;left:12%;top:12%;
+    height:75%;
+    width:75%;
+    border: 5px solid beige;
+    z-index:2;
+    font-size: 100%;
+    transition: 0.3s;
+}
+#s_music{
+    background-color: #1f86cd;
+    width: 30%;
+    height: 47.5%;
+    position: absolute;left: 0%;top: 0%;
+    border: 5px solid beige;
+    transition: 0.3s;
+}
+#m_text{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+#s_download{
+    background-color: #c95295;
+    position: absolute;bottom: 0%;left: 0%;
+    width: 69.5%;
+    height: 50%;
+    border: 5px solid #f5f5dc;
+    transition: all 0.3s;
+}
+#d_big{
+    background-color: #ff61c2;
+    position: absolute;left:12%;bottom:12%;
+    height:75%;
+    width:75%;
+    border: 5px solid beige;
+    z-index:2;
+    font-size: 100%;
+    transition: 0.3s;
+}
+#d_text{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+#d_1{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#d_2{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#s_account{
+    background-color: #d27042;
+    position: absolute;left: 31%;top: 0%;
+    width: 39%;
+    height: 47.5%;
+    border-top: 5px solid beige;
+    border-right: 5px solid beige;
+    border-bottom: 5px solid beige;
+    transition: all 0.3s;
+}
+#a_big{
+    background-color: coral;
+    position: absolute;left:12%;top:12%;
+    height:75%;
+    width:75%;
+    border: 5px solid beige;
+    z-index:2;
+    font-size: 100%;
+    transition: 0.3s;
+}
+#a_text{
+    width: 100%;
+    height: 100%;
+    color: gainsboro;
+    text-align: center;
+    display: none;
+}
+#a_icon{
+    background-color: gainsboro;
+    position: relative;left: 40%;top: 0%;
+    border: 4px solid coral;
+    border-radius: 50%;
+    height: 33%;
+    width:18%;
+}
+#a_icon_head{
+    background: url("items/head.svg")no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+#s_info{
+    background-color: #79c579;
+    position: absolute;right: 0%;top: 0%;
+    height: 98.4%;
+    width: 29%;
+    border-top: 5px solid beige;
+    border-right: 5px solid beige;
+    border-bottom: 5px solid beige;
+    transition: all 0.3s;
+}
+#i_big{
+    background-color: lightgreen;
+    position: absolute;right:12%;bottom:12%;
+    height:75%;
+    width:75%;
+    border: 5px solid beige;
+    z-index:2;
+    font-size: 100%;
+    transition: 0.3s;
+}
+#i_text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+}
+#play{
+    background-color: #bcc2c0;
+    position: relative;left: 5%;bottom:100%;
+    width: 90%;
+    height: 10%;
+}
+#p_buttons{
+    position: relative;left: 35%;
+    height: 100%;
+    width: 30%;
+}
+#p_b_last{
+    float: left;
+    height: 100%;
+    width: 25%;
+    background: url("items/last-g.svg")no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.2s;
+}
+#p_b_last:hover{
+    background:url("items/last.svg")no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.2s;
+}
+#p_b_play{
+    float: left;
+    height: 100%;
+    width: 25%;
+    background: url("items/play-g.svg")no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.2s;
+}
+#p_b_play:hover{
+    background:url("items/play-1.svg")no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.2s;
+}
+#p_b_next{
+    float: left;
+    height: 100%;
+    width: 25%;
+    background: url("items/next-g.svg")no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.2s;
+}
+#p_b_next:hover{
+    background:url("items/next.svg")no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.2s;
+}
+#p_b_stop{
+    float: left;
+    height: 100%;
+    width: 25%;
+    background: url("items/stop-g.svg")no-repeat;
+    background-position: center;
+    background-size: 70%;
+    transition: 0.2s;
+}
+#p_b_stop:hover{
+    background:url("items/stop.svg")no-repeat;
+    height: 100%;
+    width: 25%;
+    background-position: center;
+    background-size: 70%;
+    transition: 0.2s;
+}

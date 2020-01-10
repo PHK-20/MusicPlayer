@@ -1,0 +1,189 @@
+body{
+    display: none;
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+}
+#welcome{
+    position: absolute;top: 5%;left: 14%;
+    height: 630px;
+    width: 1120px;
+    font-size:x-large;
+    margin: auto;
+}
+#text{
+    animation: text 1s;
+    animation-fill-mode: forwards ;
+    animation-delay: 0.8s;
+    opacity: 0;
+    height: 55%;
+    line-height: 1050%;
+    font-size:100%;
+}
+#start{
+    animation: text 1s;
+    animation-fill-mode: forwards ;
+    animation-delay: 1s;
+    position: absolute;left: 0%;top: 40%;
+    opacity: 0;
+    height: 50%;
+    width: 100%;
+    transition: 0.2s;
+    color: #ffcd70;
+}
+@keyframes text {
+    from{opacity:  0;}
+    to{ opacity: 1;}
+}
+@keyframes balls_1 {
+    from{opacity: 0;background-size: 70%}
+    to{opacity: 1;background-size: 50%}
+}
+@keyframes balls_2 {
+    from{opacity: 0;background-size: 50%}
+    to{opacity: 1;background-size: 20%}
+}
+@keyframes balls_3 {
+    from{opacity: 0;background-size: 20%}
+    to{opacity: 1;background-size: 5%}
+}
+#ye_1{
+    animation:balls_1 1s;
+    animation-fill-mode: forwards ;
+    background: url("items/yellow.png")no-repeat;
+    background-position: center;
+    height: 80%;
+    width: 50%;
+    position: absolute;left: -5%;top: 0%;
+    opacity: 0;
+}
+#ye_2{
+    animation:balls_2 1.2s;
+    animation-fill-mode: forwards ;
+    animation-delay: 0.2s;
+    opacity: 0;
+    background: url("items/yellow.png")no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+    position: absolute;left: 40%;top: 20%;
+}
+#ye_3{
+    animation:balls_3 1.5s;
+    animation-fill-mode: forwards ;
+    animation-delay: 0.5s;
+    opacity: 0;
+    background: url("items/yellow.png")no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+    position: absolute;left: 60%;top: 10%;
+    opacity: 0;
+}
+#bl_1{
+    animation:balls_1 1s;
+    animation-fill-mode: forwards ;
+    animation-delay: 0.1s;
+    background: url("items/blue.png")no-repeat;
+    background-position: center;
+    height: 80%;
+    width: 50%;
+    position: absolute;left: 55%;top: 20%;
+    opacity: 0;
+}
+#bl_2{
+    animation:balls_2 1.2s;
+    animation-fill-mode: forwards ;
+    animation-delay: 0.2s;
+    opacity: 0;
+    background: url("items/blue.png")no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+    position: absolute;left: 0%;top: -20%;
+}
+#bl_3{
+    animation:balls_3 1.5s;
+    animation-fill-mode: forwards ;
+    animation-delay: 0.5s;
+    opacity: 0;
+    background: url("items/blue.png")no-repeat;
+    background-position: center;
+    height: 80%;
+    width: 50%;
+    position: absolute;left: 10%;top: 15%;
+}
+#re_1{
+    animation:balls_1 1s;
+    animation-fill-mode: forwards ;
+    animation-delay: 0.4s;
+    background: url("items/red.png")no-repeat;
+    background-position: center;
+    height: 70%;
+    width: 50%;
+    position: absolute;left: 0%;top: 40%;
+    opacity: 0;
+}
+#re_2{
+    animation:balls_2 1.2s;
+    animation-fill-mode: forwards ;
+    animation-delay: 0.2s;
+    opacity: 0;
+    background: url("items/red.png")no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+    position: absolute;left: 25%;top: 50%;
+}
+#re_3{
+    animation:balls_3 1.5s;
+    animation-fill-mode: forwards ;
+    animation-delay: 0.5s;
+    opacity: 0;
+    background: url("items/red.png")no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+    position: absolute;left: -10%;top: -15%;
+}
+#gr_1 {
+    animation: balls_1 1s;
+    animation-fill-mode: forwards;
+    background: url("items/green.png") no-repeat;
+    background-position: center;
+    height: 80%;
+    width: 50%;
+    position: absolute;left:50%;top: -20%;
+    opacity: 0;
+}
+#gr_2{
+    animation: balls_2 1.2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+    background: url("items/green.png") no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+    position: absolute;left: 15%;top: -10%;
+}
+#gr_3{
+    animation: balls_3 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+    background: url("items/green.png") no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+    position: absolute;left: 35%;top: -15%;
+}
+#dir{
+    position: absolute;left:12.4%;top: 3.5%;
+    height:650px;
+    width:1170px;
+    font-size:x-large;
+    margin: auto;
+    opacity: 0;
+    transition: 0.5s;
+}

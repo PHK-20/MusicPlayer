@@ -1,0 +1,30 @@
+.out{
+    width: 700px;
+    height: 700px;
+    background: gray;
+    position: absolute;
+    z-index: -2;
+}
+
+.in{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+  /*  background: yellow;*/
+    overflow: hidden;
+}
+
+.in::before{
+    content: "123";
+    position: absolute;
+   /* background: url("热点.svg");*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 600px;
+    height: 600px;
+ /*   background: red;*/
+    filter: blur(20px);
+}

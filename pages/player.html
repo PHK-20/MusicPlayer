@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" href="player.css" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<body>
+
+<div class="back1" id="back1">
+    <div class="bg" id="bg"></div>
+    <div class="left1" style="float: left">
+
+        <div id="go-back" onclick="goback('back1')"></div>
+        <div class="word-top">歌词</div>
+
+        <ul class="word1" id="word0">
+            <li >对焦她的爱</li>
+            <li>对慢了爱人会失去可爱</li>
+            <li>世事变有没有将你淹盖</li>
+            <li>只一格经典的偶遇已不再</li>
+            <li>尽量框住目前大概</li>
+            <li>留住温度速度温柔和愤怒</li>
+            <li>捉紧生命浓度</li>
+            <li>坦白流露感情和态度</li>
+            <li>留下浮光掠影飞舞</li>
+            <li>每张都罕有</li>
+            <li>拍下过记住过好过</li>
+            <li>拥有光圈爱漫游</li>
+        </ul>
+
+        <ul class="word-else" id="word1">
+            <li >突然好想你</li>
+            <li>突然好想你</li>
+            <li>最怕空气突然安静</li>
+            <li>最怕朋友突然的关心</li>
+            <li>最怕回忆突然翻滚绞痛着不平息</li>
+            <li>最怕突然听到你的消息</li>
+            <li>想念如果会有声音</li>
+            <li>不愿那是悲伤的哭泣</li>
+            <li>事到如今终于让自己属于我自己</li>
+            <li>只剩眼泪还骗不过自己</li>
+            <li>突然好想你</li>
+            <li>你会在哪里</li>
+        </ul>
+
+        <ul class="word-else" id="word2">
+            <li >你陪我步入蝉夏</li>
+            <li>越过城市喧嚣</li>
+            <li>歌声还在游走</li>
+            <li>你榴花般的双眸</li>
+            <li>不见你的温柔</li>
+            <li>丢失花间欢笑</li>
+            <li>岁月无法停留</li>
+            <li>流云的等候</li>
+            <li>我真的好想你</li>
+            <li>只剩眼泪还骗不过自己</li>
+            <li>在每一个雨季</li>
+            <li>你选择遗忘的</li>
+        </ul>
+
+        <ul class="word-else"  id="word3">
+            <li >爱上了 看见你</li>
+            <li>如何不懂谦卑</li>
+            <li>去讲心中理想　不会俗气</li>
+            <li>犹如看得见晨曦　才能欢天喜地</li>
+            <li>抱着你　我每次　</li>
+            <li>回来多少惊喜</li>
+            <li>也许一生太短　陪着你</li>
+            <li>情感有若行李</li>
+            <li>仍然沉重待我整理</li>
+            <li>天气不似如期　但要走　总要飞</li>
+            <li>道别不可再等你 不管有没有机</li>
+            <li>给我体贴入微　但你手</li>
+            <li>如明日便要远离</li>
+            <li>愿你可以留下共我曾愉快的忆记</li>
+        </ul>
+
+
+
+    </div>
+
+    <div class="right1">
+
+        <div class="top">
+            <div class="top-top">
+                <div style="font-size: 130%;    line-height: 60px;" id="name">沙龙</div>
+                <div style="line-height: 40px" id="psinger">——陈奕迅——</div>
+            </div>
+            <div class="CD" id="CD"></div>
+        </div>
+
+        <div class="bottom">
+            <audio id="bgmusic">
+                <source src="music/沙龙.mp3" type="audio/ogg" >
+            </audio>
+            <div id="bottom-last" onclick="last('bgmusic')"   class="bottom-control"></div>
+            <div onclick="mplay('bgmusic')" id="bottom-play" class="bottom-control"></div>
+            <div id="bottom-next" onclick="next('bgmusic')" class="bottom-control"></div>
+            <div id="bottom-stop" onclick="stop('bgmusic')"  class="bottom-control"></div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
